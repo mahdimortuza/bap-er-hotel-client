@@ -1,0 +1,27 @@
+.chef{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.single-card{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .chef{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+  }
+
+@media (max-width: 600px) {
+    .chef{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+  }
+
